@@ -15,7 +15,7 @@
     - [guide](https://developers.google.com/fonts/docs/getting_started?hl=zh-CN)
     - [How To Use Google Fonts Locally](https://answers.themler.io/articles/9064/how-to-use-google-fonts-locally)
     - [字体文件git目录](https://github.com/google/fonts/tree/master/ofl)
-- Fontawesome
+- [Fontawesome](https://github.com/nate-luup/fontawesomeArea)
     - [guide](https://segmentfault.com/a/1190000013173840)
     - [4.7](https://fontawesome.com/v4.7.0/icons/)
     - [free 5](https://fontawesome.com/icons?d=gallery&m=free)
