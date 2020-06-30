@@ -47,3 +47,4 @@
 5. [height、clientHeight、scrollHeight、offsetHeight区别](https://www.cnblogs.com/yuteng/articles/1894578.html)
 6. [css中单位em和rem的区别](https://www.cnblogs.com/wind-lanyan/p/6978084.html)
 7. [Icon fonts not loading in IE11](https://stackoverflow.com/questions/26894319/icon-fonts-not-loading-in-ie11)
+- [如何看待 CSS 中 BEM 的命名方式？](https://www.zhihu.com/question/21935157)
