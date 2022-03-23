@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS 选择器</title>
+    <style type="text/css">
+        /* block1 */
+        #parent p {
+            background-color: red;
+        }
+
+        .a.b.c.d.e.f.g.h.i.j.k p {
+            background-color: green;
+        }
+
+        /* block2 */
+        #parent #block2 {
+            background-color: red;
+        }
+
+        #parent #block2 {
+            background-color: green;
+        }
+
+        /* block3 */
+        #parent div#block3 {
+            background-color: yellow !important;
+        }
+
+        #parent div#block3 {
+            background-color: red;
+        }
+
+        #parent #block3 {
+            background-color: green;
+        }
+         /* block4 */
+         #parent #block4 {
+            background-color: red;
+        }
+         /* block5 */
+         #parent div.block5 {
+            background-color: red;
+        }
+        #parent div[class=block5] {
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div class="a b c d e f g h i j k">
+            <p>block 1</p>
+        </div>
+        <div id="block2">block2</div>
+        <div id="block3">block3</div>
+        <div id="block4" style="background: blue;">block4</div>
+        <div class="block5">block5</div>
+    </div>
+</body>
+
+</html>

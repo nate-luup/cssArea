@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div 居中</title>
+    <style>
+        /*第一种方法*/
+        .center-1 {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .center-2 {
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            background-color: yellow;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* 使用translate()，让元素移动是相对于自身的宽度和高度*/
+        }
+
+        .center-3 {
+            width: 400px;
+            height: 400px;
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .inner {
+            width: 200px;
+            height: 200px;
+            background-color: orchid;
+        }
+
+        .d-none {
+            display: none;
+        }
+
+        .position-relative {
+            position: relative;
+        }
+        .position-absolute {
+            position: absolute;
+        }
+        .bg-red{
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-1">
+        <div class="inner">center</div>
+    </div>
+</body>
+
+</html>
